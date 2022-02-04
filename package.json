@@ -2,25 +2,27 @@
   "name": "vefforritun-2---verkefni-1",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "stats-lite": "^2.2.0",
+    "is-number": "^7.0.0"
+  },
   "scripts": {
     "build": "node ./src/build.js",
-    "test": "NODE_OPTIONS='--experimental-vm-modules' jest ./test/parse.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoggoDude/Vefforritun-2---Verkefni-1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "compute-variance": "^3.0.0",
-    "jest": "^27.4.7",
-    "stats-lite": "^2.2.0",
-    "yarn": "^1.22.17"
+  "bugs": {
+    "url": "https://github.com/RoggoDude/Vefforritun-2---Verkefni-1/issues"
   },
-  "dependencies": {
-    "convert-string-to-number": "^1.0.3",
-    "gray-matter": "^4.0.3",
-    "is-number": "^7.0.0",
-    "marked": "^4.0.12"
-  }
+  "homepage": "https://github.com/RoggoDude/Vefforritun-2---Verkefni-1#readme"
 }
